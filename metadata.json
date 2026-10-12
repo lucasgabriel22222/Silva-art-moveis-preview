@@ -1,0 +1,6 @@
+{
+  "name": "Silvana Art Móveis Planejados",
+  "description": "Móveis planejados sob medida, cozinhas, dormitórios e ambientes personalizados no Coxipó da Ponte, Cuiabá - MT.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
