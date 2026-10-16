@@ -171,14 +171,14 @@ export const LocationSection: React.FC = () => {
           <div className="lg:col-span-7 bg-slate-100 rounded-2xl overflow-hidden border border-slate-200 shadow-xs relative min-h-[380px] lg:min-h-full flex flex-col">
             <iframe
               title="Localização Silvana Art Móveis Planejados - Coxipó da Ponte, Cuiabá"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15369.099522363185!2d-56.07921225!3d-15.63750035!2m3!1f0!2f0!3f0!3m2!1i1024!2i786!4f13.1!3m3!1m2!1s0x939db1b9c9f4d7b1%3A0x6b8d4f0d63892789!2sCoxip%C3%B3%20da%20Ponte%2C%20Cuiab%C3%A1%20-%20MT!5e0!3m2!1spt-BR!2sbr!4v1710000000000!5m2!1spt-BR!2sbr"
+              src={siteData.company.address.embedMapUrl}
               className="w-full h-full min-h-[380px] lg:min-h-[460px] border-0"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />
             <div className="p-4 bg-white/95 backdrop-blur-md border-t border-slate-200 text-xs text-slate-600 flex flex-col sm:flex-row items-center justify-between gap-2">
               <span className="font-medium text-slate-800">
-                Loteamento Belita Costa Marques · Coxipó da Ponte · Cuiabá - MT
+                {siteData.company.address.full}
               </span>
               <a
                 href={siteData.company.address.googleMapsUrl}

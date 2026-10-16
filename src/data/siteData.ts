@@ -43,14 +43,14 @@ export const siteData = {
     phoneFormatted: '+55 65 99259-5365',
     phoneRaw: '5565992595365',
     address: {
-      street: 'Loteamento Belita Costa Marques',
-      neighborhood: 'Coxipó da Ponte',
+      street: 'Rua Paineira Branca, Quadra 06, Nº 05',
+      neighborhood: 'Coxipó da Ponte (Lot. Belita Costa Marques)',
       city: 'Cuiabá',
       state: 'MT',
       country: 'Brasil',
-      full: 'Loteamento Belita Costa Marques - Coxipó da Ponte, Cuiabá - MT, Brasil',
-      googleMapsUrl: 'https://maps.google.com/?q=Loteamento+Belita+Costa+Marques+-+Coxip%C3%B3+da+Ponte,+Cuiab%C3%A1+-+MT',
-      embedMapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3842.2748805987627!2d-56.07166!3d-15.6375!2m3!1f0!2f0!3f0!3m2!1i1024!2i786!4f13.1!3m3!1m2!1s0x939db1b9c9f4d7b1%3A0x6b8d4f0d63892789!2sCoxip%C3%B3%20da%20Ponte%2C%20Cuiab%C3%A1%20-%20MT!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr'
+      full: 'Rua Paineira Branca, Quadra 06, Nº 05 - Coxipó da Ponte, Cuiabá - MT, Brasil',
+      googleMapsUrl: 'https://maps.google.com/?q=Rua+Paineira+Branca,+Quadra+06,+N+05+-+Coxip%C3%B3+da+Ponte,+Cuiab%C3%A1+-+MT',
+      embedMapUrl: 'https://www.google.com/maps?q=Rua+Paineira+Branca,+Quadra+06,+N+05,+Coxip%C3%B3+da+Ponte,+Cuiab%C3%A1+-+MT&output=embed'
     },
     hours: [
       { days: 'Segunda a Sexta-feira', time: '08:00 às 18:00' },
